@@ -6,7 +6,10 @@ Hyrda is a python library meant to be used in the creation of Entrypoint scripts
 
 ## Quick Example
 ```
+import requests
+import subprocess
 from hydra import HydraProcess 
+
 class nginx(HydraProcess):
 
   def start(self, *args):
