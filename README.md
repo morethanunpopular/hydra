@@ -60,5 +60,7 @@ OK
 
 ## Features TODO:
 * Handle sending signals to the processes
+* Handle tracking log files, printing output to stdout
+* (Maybe) create endpoint for posting updated configuration files
 
  
